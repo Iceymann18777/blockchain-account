@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,13 @@
     "ethereumjs-wallet": "^0.6.2",
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "keythereum": "^1.0.4"
+    "keythereum": "^1.0.4",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "gulp-babel": "^8.0.0"
-  }
+  },
+  "snyk": true
 }
