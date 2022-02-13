@@ -18,7 +18,7 @@
   "homepage": "https://github.com/zhanggj3/blockchain-account#readme",
   "dependencies": {
     "bignumber.js": "^9.0.0",
-    "bip39": "^2.5.0",
+    "bip39": "^3.0.4",
     "ethereumjs-wallet": "^0.6.2",
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",
